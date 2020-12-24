@@ -1,0 +1,24 @@
+features:
+  - ssh
+  - nxapi
+  - bash-shell
+  - restconf
+  - netconf
+  - lacp
+  - hsrp
+  - vtp
+  - interface-vlan
+  - lldp
+  - eigrp
+  - ospf
+  - ospfv3
+  - isis
+  - bgp
+
+portchannel:
+  - name: port-channel 1
+    mode: active
+    member: Ethernet 1/1
+  - name: port-channel 1
+    mode: active
+    member: Ethernet 1/2
